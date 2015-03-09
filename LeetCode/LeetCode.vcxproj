@@ -76,6 +76,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Source\p1 Two Sum.cpp" />
+    <ClCompile Include="..\Source\p136 Single Number.cpp" />
+    <ClCompile Include="..\Source\p2 Add Two Numbers.cpp" />
+    <ClCompile Include="..\Source\p3 Longest Substring Without Repeating Characters.cpp" />
+    <ClCompile Include="..\Source\p4 Median of Two Sorted Arrays.cpp" />
+    <ClCompile Include="..\Source\p5 Longest Palindromic Substring.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

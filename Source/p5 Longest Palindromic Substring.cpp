@@ -9,37 +9,31 @@ class Solution {
 public:
 	//use Manacher Algorithm, O(n)
 	string longestPalindrome(string s) {
-		string newStr = "#";
+		string newStr = "$#";
 		for (char ch : s){
-			newStr += (string)ch + "#";
+			char t[2] = { ch, '\0' };
+			newStr += (string)t + "#";
 		}
-		cout << s.c_str() << endl;
-		cout << newStr.c_str() << endl;
 		int *lens = new int[newStr.length()];
-		memset(lens, 0, sizeof(lens));
 
-		int center = 0, right = 0, maxl, maxs;
+		int center = 0, right = 0, maxl = 0, maxs = -1;
 		for (int i = 0; i < newStr.length(); i++){
 			int j = 2 * center - i;
-			if (i + lens[j] < right)
-				lens[i] = lens[j];
-			else{
-				lens[i] = right - i + 1;
-				while (i >= lens[i]
-					&& newStr[i + lens[i]] == newStr[i - lens[i]])
-					lens[i]++;
-				if (i + lens[i] > right){
-					right = i + lens[i];
-					center = i;
-				}
+			if (right > i)
+				lens[i] = lens[j] + i < right ? lens[j] : right - i;
+			else
+				lens[i] = 1;
+			while (newStr[i + lens[i]] == newStr[i - lens[i]])
+				lens[i]++;
+			if (lens[i] + i - 1 > right){
+				right = lens[i] + i - 1;
+				center = i;
 			}
-			if (maxl > lens[i]){
-				maxl = lens[i];
+			if (maxl < lens[i] - 1){
+				maxl = lens[i] - 1;
 				maxs = i - maxl;
 			}
 		}
-		cout << newStr.c_str() << endl;
-		cout << maxs << maxl << endl;
 		string ans = "";
 		for (int i = maxs; i < maxs + 2 * maxl; i++)
 			if (newStr[i] != '#')
@@ -51,7 +45,7 @@ public:
 //*
 int main()
 {
-	string s = "ccc";
+	string s = "abb";
 	cout << Solution().longestPalindrome(s).c_str() << endl;
 	return 0;
 }

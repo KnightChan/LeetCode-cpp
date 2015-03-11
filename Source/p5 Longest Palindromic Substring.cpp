@@ -42,7 +42,7 @@ public:
 	}
 };
 
-//*
+/*
 int main()
 {
 	string s = "abb";

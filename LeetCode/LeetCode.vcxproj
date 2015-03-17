@@ -82,6 +82,8 @@
     <ClCompile Include="..\Source\p3 Longest Substring Without Repeating Characters.cpp" />
     <ClCompile Include="..\Source\p4 Median of Two Sorted Arrays.cpp" />
     <ClCompile Include="..\Source\p5 Longest Palindromic Substring.cpp" />
+    <ClCompile Include="..\Source\p6 ZigZag Conversion.cpp" />
+    <ClCompile Include="..\Source\p7 Reverse Integer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -77,6 +77,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\p1 Two Sum.cpp" />
+    <ClCompile Include="..\Source\p10 Regular Expression Matching.cpp" />
+    <ClCompile Include="..\Source\p11 Container With Most Water.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p2 Add Two Numbers.cpp" />
     <ClCompile Include="..\Source\p3 Longest Substring Without Repeating Characters.cpp" />
@@ -84,6 +86,8 @@
     <ClCompile Include="..\Source\p5 Longest Palindromic Substring.cpp" />
     <ClCompile Include="..\Source\p6 ZigZag Conversion.cpp" />
     <ClCompile Include="..\Source\p7 Reverse Integer.cpp" />
+    <ClCompile Include="..\Source\p8 String to Integer (atoi).cpp" />
+    <ClCompile Include="..\Source\p9 Palindrome Number.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

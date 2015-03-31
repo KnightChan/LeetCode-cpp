@@ -1,13 +1,11 @@
-﻿Build started 2015/3/30 星期一 14:55:44 >_<|.
+﻿Build started 2015/3/31 星期二 19:36:15 >_<|.
      1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (ClCompile target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p14 Longest Common Prefix.cpp"
-         p14 Longest Common Prefix.cpp
-     1>..\Source\p14 Longest Common Prefix.cpp(11): warning C4018: '<' : signed/unsigned mismatch
-     1>..\Source\p14 Longest Common Prefix.cpp(13): warning C4018: '<' : signed/unsigned mismatch
-     1>..\Source\p14 Longest Common Prefix.cpp(14): warning C4018: '>=' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p022 Generate Parentheses.cpp"
+         p022 Generate Parentheses.cpp
+     1>..\Source\p022 Generate Parentheses.cpp(22): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
      1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (ClCompile target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.35
+Time Elapsed 00:00:00.43

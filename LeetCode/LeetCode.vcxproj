@@ -76,22 +76,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Source\p1 Two Sum.cpp" />
-    <ClCompile Include="..\Source\p10 Regular Expression Matching.cpp" />
-    <ClCompile Include="..\Source\p11 Container With Most Water.cpp" />
-    <ClCompile Include="..\Source\p12 Integer to Roman.cpp" />
-    <ClCompile Include="..\Source\p13 Roman to Integer.cpp" />
+    <ClCompile Include="..\Source\leetcode.cpp" />
+    <ClCompile Include="..\Source\p001 Two Sum.cpp" />
+    <ClCompile Include="..\Source\p010 Regular Expression Matching.cpp" />
+    <ClCompile Include="..\Source\p011 Container With Most Water.cpp" />
+    <ClCompile Include="..\Source\p012 Integer to Roman.cpp" />
+    <ClCompile Include="..\Source\p013 Roman to Integer.cpp" />
+    <ClCompile Include="..\Source\p022 Generate Parentheses.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
-    <ClCompile Include="..\Source\p14 Longest Common Prefix.cpp" />
-    <ClCompile Include="..\Source\p2 Add Two Numbers.cpp" />
-    <ClCompile Include="..\Source\p3 Longest Substring Without Repeating Characters.cpp" />
-    <ClCompile Include="..\Source\p4 Median of Two Sorted Arrays.cpp" />
-    <ClCompile Include="..\Source\p5 Longest Palindromic Substring.cpp" />
-    <ClCompile Include="..\Source\p6 ZigZag Conversion.cpp" />
-    <ClCompile Include="..\Source\p7 Reverse Integer.cpp" />
-    <ClCompile Include="..\Source\p8 String to Integer (atoi).cpp" />
-    <ClCompile Include="..\Source\p9 Palindrome Number.cpp" />
+    <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
+    <ClCompile Include="..\Source\p019 Remove Nth Node From End of List.cpp" />
+    <ClCompile Include="..\Source\p002 Add Two Numbers.cpp" />
+    <ClCompile Include="..\Source\p020 Valid Parentheses.cpp" />
+    <ClCompile Include="..\Source\p021 Merge Two Sorted Lists.cpp" />
+    <ClCompile Include="..\Source\p003 Longest Substring Without Repeating Characters.cpp" />
+    <ClCompile Include="..\Source\p004 Median of Two Sorted Arrays.cpp" />
+    <ClCompile Include="..\Source\p005 Longest Palindromic Substring.cpp" />
+    <ClCompile Include="..\Source\p006 ZigZag Conversion.cpp" />
+    <ClCompile Include="..\Source\p007 Reverse Integer.cpp" />
+    <ClCompile Include="..\Source\p008 String to Integer %28atoi%29.cpp" />
+    <ClCompile Include="..\Source\p009 Palindrome Number.cpp" />
     <ClCompile Include="..\Source\test.cpp" />
+    <ClCompile Include="p015 3Sum.cpp" />
+    <ClCompile Include="p016 3Sum Closest.cpp" />
+    <ClCompile Include="p017 Letter Combinations of a Phone Number.cpp" />
+    <ClCompile Include="p018 4Sum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\leetcode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

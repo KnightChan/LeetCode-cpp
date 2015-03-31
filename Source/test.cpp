@@ -1,4 +1,4 @@
-#include <iostream>
+#include "leetcode.h"
 
 class Outer
 {
@@ -48,7 +48,74 @@ public:
 	int i;
 };
 
-int main(void)
+bool is_odd(int i) { return i & 1; }
+bool is_odd_pair(pair<int, int> i) { return i.first & 1; }
+
+int main4(void){
+	vector<int> v = { 1, 99999, 2, 3, 4, 99999, 99999, 5, 6, 99999, 7, 8, 9, 99999, 10 };
+	cout << v.size() << endl;
+	for (int x : v)
+		cout << x << ", ";
+	cout << endl;
+	
+	//v.erase(remove_if(v.begin(), v.end(), is_odd), v.end());
+	v.erase(remove_if(v.begin(), v.end(), [](int i){ return i & 1; }), v.end());
+	/*for (vector<int>::iterator iter = v.begin(); iter != v.end();){
+		if (*iter & 1){
+			iter = v.erase(iter);
+		}
+		else  iter++;
+	}
+	*/
+
+	for (int x : v)
+		cout << x << ", ";
+	cout << endl;
+
+	set<int> s = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 99999 };
+	for (int x : s)
+		cout << x << ", ";
+	cout << endl;
+
+	//s.erase(remove_if(s.begin(), s.end(), is_odd), s.end());
+	for (set<int>::iterator iter = s.begin(); iter != s.end();){
+		if (*iter & 1){
+			cout << *iter << "--";
+			iter = s.erase(iter);
+			cout << *iter << "**";
+		}
+		else  iter++;
+	}
+
+	for (int x : s)
+		cout << x << ", ";
+	cout << endl;
+
+	
+	int keys[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 99999 };
+	int values[] = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 199999 };
+	map<int, int> dic;
+	for (int i = 0; i < 12; i++){
+		dic.insert(make_pair(keys[i], values[i]));
+	}
+	for (pair<int, int> x : dic)
+		cout << x.first << "," << x.second << "; ";
+	cout << endl;
+
+	//dic.erase(remove_if(dic.begin(), dic.end(), is_odd_pair), dic.end());
+	for (map<int, int>::iterator iter = dic.begin(); iter != dic.end();){
+		if (iter->first & 1){
+			iter = dic.erase(iter);
+		}
+		else  iter++;
+	}
+
+	for (pair<int, int> x : dic)
+		cout << x.first << "," << x.second << "; ";
+	cout << endl;
+}
+
+int main3(void)
 {
 	derived d;
 	d.i = 65;

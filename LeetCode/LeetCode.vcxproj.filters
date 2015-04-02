@@ -63,18 +63,6 @@
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p015 3Sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p016 3Sum Closest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p017 Letter Combinations of a Phone Number.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p018 4Sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\p019 Remove Nth Node From End of List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -88,6 +76,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\p022 Generate Parentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p023 Merge k Sorted Lists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p042 Trapping Rain Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p015 3Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p016 3Sum Closest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p017 Letter Combinations of a Phone Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p018 4Sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

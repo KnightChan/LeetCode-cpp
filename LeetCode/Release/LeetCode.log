@@ -1,11 +1,40 @@
-﻿Build started 2015/3/31 星期二 19:36:15 >_<|.
-     1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (ClCompile target(s)).
+﻿Build started 2015/4/3 星期五 1:29:10 >_<|.
+     1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p022 Generate Parentheses.cpp"
-         p022 Generate Parentheses.cpp
-     1>..\Source\p022 Generate Parentheses.cpp(22): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
-     1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (ClCompile target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p023 Merge k Sorted Lists.cpp"
+         p023 Merge k Sorted Lists.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
+         "Release\p001 Two Sum.obj"
+         "Release\p010 Regular Expression Matching.obj"
+         "Release\p011 Container With Most Water.obj"
+         "Release\p012 Integer to Roman.obj"
+         "Release\p013 Roman to Integer.obj"
+         "Release\p015 3Sum.obj"
+         "Release\p016 3Sum Closest.obj"
+         "Release\p017 Letter Combinations of a Phone Number.obj"
+         "Release\p018 4Sum.obj"
+         "Release\p022 Generate Parentheses.obj"
+         "Release\p136 Single Number.obj"
+         "Release\p014 Longest Common Prefix.obj"
+         "Release\p019 Remove Nth Node From End of List.obj"
+         "Release\p002 Add Two Numbers.obj"
+         "Release\p020 Valid Parentheses.obj"
+         "Release\p021 Merge Two Sorted Lists.obj"
+         "Release\p003 Longest Substring Without Repeating Characters.obj"
+         "Release\p004 Median of Two Sorted Arrays.obj"
+         "Release\p005 Longest Palindromic Substring.obj"
+         "Release\p006 ZigZag Conversion.obj"
+         "Release\p007 Reverse Integer.obj"
+         "Release\p008 String to Integer (atoi).obj"
+         "Release\p009 Palindrome Number.obj"
+         "Release\p023 Merge k Sorted Lists.obj"
+         "Release\p042 Trapping Rain Water.obj"
+         Release\test.obj
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+     1>D:\GitHub\LeetCode-cpp\Release\LeetCode.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.43
+Time Elapsed 00:00:00.88

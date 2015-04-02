@@ -82,6 +82,10 @@
     <ClCompile Include="..\Source\p011 Container With Most Water.cpp" />
     <ClCompile Include="..\Source\p012 Integer to Roman.cpp" />
     <ClCompile Include="..\Source\p013 Roman to Integer.cpp" />
+    <ClCompile Include="..\Source\p015 3Sum.cpp" />
+    <ClCompile Include="..\Source\p016 3Sum Closest.cpp" />
+    <ClCompile Include="..\Source\p017 Letter Combinations of a Phone Number.cpp" />
+    <ClCompile Include="..\Source\p018 4Sum.cpp" />
     <ClCompile Include="..\Source\p022 Generate Parentheses.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
@@ -96,11 +100,9 @@
     <ClCompile Include="..\Source\p007 Reverse Integer.cpp" />
     <ClCompile Include="..\Source\p008 String to Integer %28atoi%29.cpp" />
     <ClCompile Include="..\Source\p009 Palindrome Number.cpp" />
+    <ClCompile Include="..\Source\p023 Merge k Sorted Lists.cpp" />
+    <ClCompile Include="..\Source\p042 Trapping Rain Water.cpp" />
     <ClCompile Include="..\Source\test.cpp" />
-    <ClCompile Include="p015 3Sum.cpp" />
-    <ClCompile Include="p016 3Sum Closest.cpp" />
-    <ClCompile Include="p017 Letter Combinations of a Phone Number.cpp" />
-    <ClCompile Include="p018 4Sum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\leetcode.h" />

@@ -7,6 +7,9 @@ class Solution {
 	There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 	*/
 public:
+	/*
+	找两个有序数组的中位数
+	*/
 	double findMedianSortedArrays(int A[], int m, int B[], int n) {
 		double median = findKthMin(A, m, B, n, (m + n) / 2 + 1);
 		if ((m + n) % 2 == 0)
@@ -14,6 +17,9 @@ public:
 		return median;
 	}
 
+	/*
+	查找第k大，2分思想
+	*/
 	double findKthMin(int A[], int m, int B[], int n, int k){
 		if (m == 0)
 			return B[k - 1];

@@ -8,6 +8,7 @@
 #include <set>
 #include <map>
 #include <list>
+#include <queue>
 using namespace std;
 
 
@@ -15,9 +16,10 @@ struct ListNode {
 	int val;
 	ListNode *next;
 	ListNode(int x) : val(x), next(NULL) {}
-};
+}; 
 
-void displayListNode(ListNode *ln);
+void displayList(ListNode *head);
+ListNode * makeList(vector<int> v);
 
 template<class T>
 void displayVector(vector<T> vec)
@@ -32,3 +34,26 @@ void displayVector(vector<T> vec)
 	cout << " ]";
 }
 
+
+template<class T>
+void displayVector2(vector<vector<T>> vec)
+{
+	for (int i = 0; i < vec.size(); ++i)
+	{
+		displayVector<T>(vec[i]);
+		cout << endl;
+	}
+}
+
+template<class T>
+void displayArray(T A, int n)
+{
+	cout << "[ ";
+	for (int i = 0; i < n; ++i)
+	{
+		if (i != 0)
+			cout << " , ";
+		cout << A[i];
+	}
+	cout << " ]";
+}

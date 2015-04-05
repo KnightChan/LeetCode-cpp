@@ -1,10 +1,17 @@
-﻿Build started 2015/4/5 星期日 20:02:36 >_<|.
-     1>Project "C:\Users\Qingjun\Desktop\GitHub-cqj\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2015/4/6 星期一 0:38:53 >_<|.
+     1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p025 Reverse Nodes in k-Group.cpp"
-         p025 Reverse Nodes in k-Group.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p030 Substring with Concatenation of All Words.cpp"
+         p030 Substring with Concatenation of All Words.cpp
+     1>..\Source\p030 Substring with Concatenation of All Words.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>i:\github\leetcode-cpp\source\leetcode.h(31): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Source\p030 Substring with Concatenation of All Words.cpp(69) : see reference to function template instantiation 'void displayVector<int>(std::vector<int,std::allocator<_Ty>>)' being compiled
+                 with
+                 [
+                     _Ty=int
+                 ]
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Qingjun\Desktop\GitHub-cqj\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Qingjun\Desktop\GitHub-cqj\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Qingjun\Desktop\GitHub-cqj\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
          "Release\p001 Two Sum.obj"
          "Release\p010 Regular Expression Matching.obj"
          "Release\p011 Container With Most Water.obj"
@@ -17,6 +24,11 @@
          "Release\p022 Generate Parentheses.obj"
          "Release\p024 Swap Nodes in Pairs.obj"
          "Release\p025 Reverse Nodes in k-Group.obj"
+         "Release\p026 Remove Duplicates from Sorted Array.obj"
+         "Release\p027 Remove Element.obj"
+         "Release\p028 Implement strStr().obj"
+         "Release\p029 Divide Two Integers.obj"
+         "Release\p030 Substring with Concatenation of All Words.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
          "Release\p019 Remove Nth Node From End of List.obj"
@@ -35,9 +47,9 @@
          Release\test.obj
          Generating code
          Finished generating code
-         LeetCode.vcxproj -> C:\Users\Qingjun\Desktop\GitHub-cqj\LeetCode-cpp\Release\LeetCode.exe
-     1>Done Building Project "C:\Users\Qingjun\Desktop\GitHub-cqj\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
+         LeetCode.vcxproj -> I:\GitHub\LeetCode-cpp\Release\LeetCode.exe
+     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.63
+Time Elapsed 00:00:02.28

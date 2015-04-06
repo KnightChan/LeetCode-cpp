@@ -1,11 +1,23 @@
-﻿Build started 2015/4/6 星期一 0:38:53 >_<|.
+﻿Build started 2015/4/6 星期一 22:21:44 >_<|.
      1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p030 Substring with Concatenation of All Words.cpp"
-         p030 Substring with Concatenation of All Words.cpp
-     1>..\Source\p030 Substring with Concatenation of All Words.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p039 Combination Sum.cpp"
+         p039 Combination Sum.cpp
+     1>..\Source\p039 Combination Sum.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>i:\github\leetcode-cpp\source\leetcode.h(44): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Source\p039 Combination Sum.cpp(51) : see reference to function template instantiation 'void displayVector2<int>(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)' being compiled
+                 with
+                 [
+                     _Ty=int
+                 ]
      1>i:\github\leetcode-cpp\source\leetcode.h(31): warning C4018: '<' : signed/unsigned mismatch
-                 ..\Source\p030 Substring with Concatenation of All Words.cpp(69) : see reference to function template instantiation 'void displayVector<int>(std::vector<int,std::allocator<_Ty>>)' being compiled
+                 i:\github\leetcode-cpp\source\leetcode.h(46) : see reference to function template instantiation 'void displayVector<T>(std::vector<int,std::allocator<_Ty>>)' being compiled
+                 with
+                 [
+                     T=int
+         ,            _Ty=int
+                 ]
+                 ..\Source\p039 Combination Sum.cpp(51) : see reference to function template instantiation 'void displayVector2<int>(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)' being compiled
                  with
                  [
                      _Ty=int
@@ -29,6 +41,16 @@
          "Release\p028 Implement strStr().obj"
          "Release\p029 Divide Two Integers.obj"
          "Release\p030 Substring with Concatenation of All Words.obj"
+         "Release\p031 Next Permutation.obj"
+         "Release\p032 Longest Valid Parentheses.obj"
+         "Release\p033 Search in Rotated Sorted Array.obj"
+         "Release\p034 Search for a Range.obj"
+         "Release\p035 Search Insert Position.obj"
+         "Release\p036 Valid Sudoku.obj"
+         "Release\p037 Sudoku Solver.obj"
+         "Release\p038 Count and Say.obj"
+         "Release\p039 Combination Sum.obj"
+         "Release\p081 Search in Rotated Sorted Array II.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
          "Release\p019 Remove Nth Node From End of List.obj"
@@ -52,4 +74,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.28
+Time Elapsed 00:00:02.47

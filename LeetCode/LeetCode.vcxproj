@@ -99,6 +99,12 @@
     <ClCompile Include="..\Source\p033 Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="..\Source\p034 Search for a Range.cpp" />
     <ClCompile Include="..\Source\p035 Search Insert Position.cpp" />
+    <ClCompile Include="..\Source\p036 Valid Sudoku.cpp" />
+    <ClCompile Include="..\Source\p037 Sudoku Solver.cpp" />
+    <ClCompile Include="..\Source\p038 Count and Say.cpp" />
+    <ClCompile Include="..\Source\p039 Combination Sum.cpp" />
+    <ClCompile Include="..\Source\p040 Combination Sum II.cpp" />
+    <ClCompile Include="..\Source\p041 First Missing Positive.cpp" />
     <ClCompile Include="..\Source\p081 Search in Rotated Sorted Array II.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />

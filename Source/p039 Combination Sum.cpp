@@ -43,7 +43,7 @@ public:
 			}
 	}
 };
-//*
+/*
 int main()
 {
 	vector<int> v{ 1 };

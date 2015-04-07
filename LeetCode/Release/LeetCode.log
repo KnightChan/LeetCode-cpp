@@ -1,29 +1,10 @@
-﻿Build started 2015/4/6 星期一 22:21:44 >_<|.
-     1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2015/4/7 星期二 16:15:06 >_<|.
+     1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p039 Combination Sum.cpp"
-         p039 Combination Sum.cpp
-     1>..\Source\p039 Combination Sum.cpp(36): warning C4018: '<' : signed/unsigned mismatch
-     1>i:\github\leetcode-cpp\source\leetcode.h(44): warning C4018: '<' : signed/unsigned mismatch
-                 ..\Source\p039 Combination Sum.cpp(51) : see reference to function template instantiation 'void displayVector2<int>(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)' being compiled
-                 with
-                 [
-                     _Ty=int
-                 ]
-     1>i:\github\leetcode-cpp\source\leetcode.h(31): warning C4018: '<' : signed/unsigned mismatch
-                 i:\github\leetcode-cpp\source\leetcode.h(46) : see reference to function template instantiation 'void displayVector<T>(std::vector<int,std::allocator<_Ty>>)' being compiled
-                 with
-                 [
-                     T=int
-         ,            _Ty=int
-                 ]
-                 ..\Source\p039 Combination Sum.cpp(51) : see reference to function template instantiation 'void displayVector2<int>(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>)' being compiled
-                 with
-                 [
-                     _Ty=int
-                 ]
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p052 N-Queens II.cpp"
+         p052 N-Queens II.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
          "Release\p001 Two Sum.obj"
          "Release\p010 Regular Expression Matching.obj"
          "Release\p011 Container With Most Water.obj"
@@ -50,6 +31,18 @@
          "Release\p037 Sudoku Solver.obj"
          "Release\p038 Count and Say.obj"
          "Release\p039 Combination Sum.obj"
+         "Release\p040 Combination Sum II.obj"
+         "Release\p041 First Missing Positive.obj"
+         "Release\p043 Multiply Strings.obj"
+         "Release\p044 Wildcard Matching.obj"
+         "Release\p045 Jump Game II.obj"
+         "Release\p046 Permutations.obj"
+         "Release\p047 Permutations.obj"
+         "Release\p048 Rotate Image.obj"
+         "Release\p049 Anagrams.obj"
+         "Release\p050 Pow(x, n).obj"
+         "Release\p051 N-Queens.obj"
+         "Release\p052 N-Queens II.obj"
          "Release\p081 Search in Rotated Sorted Array II.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
@@ -69,9 +62,9 @@
          Release\test.obj
          Generating code
          Finished generating code
-         LeetCode.vcxproj -> I:\GitHub\LeetCode-cpp\Release\LeetCode.exe
-     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
+         LeetCode.vcxproj -> D:\GitHub\LeetCode-cpp\Release\LeetCode.exe
+     1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.47
+Time Elapsed 00:00:02.10

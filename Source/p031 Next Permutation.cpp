@@ -16,12 +16,6 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 class Solution {
 public:
-	void swap(int &a, int &b)
-	{
-		int t = a;
-		a = b;
-		b = t;
-	}
 	void nextPermutation(vector<int> &num) {
 		int pos = num.size() - 1;
 		while (pos > 0 && num[pos - 1] >= num[pos]) --pos;

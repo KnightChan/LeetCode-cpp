@@ -1,10 +1,18 @@
-﻿Build started 2015/4/7 星期二 16:15:06 >_<|.
-     1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2015/4/10 星期五 0:14:10 >_<|.
+     1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p052 N-Queens II.cpp"
-         p052 N-Queens II.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p56 Merge Intervals.cpp"
+         p56 Merge Intervals.cpp
+     1>..\Source\p56 Merge Intervals.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p56 Merge Intervals.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>i:\github\leetcode-cpp\source\leetcode.h(42): warning C4018: '<' : signed/unsigned mismatch
+                 ..\Source\p56 Merge Intervals.cpp(50) : see reference to function template instantiation 'void displayVector<Interval>(std::vector<Interval,std::allocator<_Ty>>)' being compiled
+                 with
+                 [
+                     _Ty=Interval
+                 ]
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
          "Release\p001 Two Sum.obj"
          "Release\p010 Regular Expression Matching.obj"
          "Release\p011 Container With Most Water.obj"
@@ -43,6 +51,9 @@
          "Release\p050 Pow(x, n).obj"
          "Release\p051 N-Queens.obj"
          "Release\p052 N-Queens II.obj"
+         "Release\p053 Maximum Subarray.obj"
+         "Release\p054 Spiral Matrix.obj"
+         "Release\p055 Jump Game.obj"
          "Release\p081 Search in Rotated Sorted Array II.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
@@ -59,12 +70,13 @@
          "Release\p009 Palindrome Number.obj"
          "Release\p023 Merge k Sorted Lists.obj"
          "Release\p042 Trapping Rain Water.obj"
+         "Release\p56 Merge Intervals.obj"
          Release\test.obj
          Generating code
          Finished generating code
-         LeetCode.vcxproj -> D:\GitHub\LeetCode-cpp\Release\LeetCode.exe
-     1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
+         LeetCode.vcxproj -> I:\GitHub\LeetCode-cpp\Release\LeetCode.exe
+     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.10
+Time Elapsed 00:00:02.60

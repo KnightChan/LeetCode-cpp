@@ -118,6 +118,9 @@
     <ClCompile Include="..\Source\p053 Maximum Subarray.cpp" />
     <ClCompile Include="..\Source\p054 Spiral Matrix.cpp" />
     <ClCompile Include="..\Source\p055 Jump Game.cpp" />
+    <ClCompile Include="..\Source\p057.cpp" />
+    <ClCompile Include="..\Source\p058 Length of Last Word.cpp" />
+    <ClCompile Include="..\Source\p059 Spiral Matrix II.cpp" />
     <ClCompile Include="..\Source\p081 Search in Rotated Sorted Array II.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
@@ -134,6 +137,7 @@
     <ClCompile Include="..\Source\p009 Palindrome Number.cpp" />
     <ClCompile Include="..\Source\p023 Merge k Sorted Lists.cpp" />
     <ClCompile Include="..\Source\p042 Trapping Rain Water.cpp" />
+    <ClCompile Include="..\Source\p056 Merge Intervals.cpp" />
     <ClCompile Include="..\Source\test.cpp" />
   </ItemGroup>
   <ItemGroup>

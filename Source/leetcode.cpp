@@ -25,4 +25,10 @@ void displayList(ListNode* head)
 		p = p->next;
 	}
 	cout << " ]";
-} 
+}
+
+ostream& operator<<(ostream& os, const Interval& in)
+{
+	os << "[" << in.start << "," << in.end << "]";
+	return os;
+}

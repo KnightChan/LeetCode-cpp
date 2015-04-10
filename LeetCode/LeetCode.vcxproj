@@ -118,7 +118,7 @@
     <ClCompile Include="..\Source\p053 Maximum Subarray.cpp" />
     <ClCompile Include="..\Source\p054 Spiral Matrix.cpp" />
     <ClCompile Include="..\Source\p055 Jump Game.cpp" />
-    <ClCompile Include="..\Source\p057.cpp" />
+    <ClCompile Include="..\Source\p057 Insert Interval.cpp" />
     <ClCompile Include="..\Source\p058 Length of Last Word.cpp" />
     <ClCompile Include="..\Source\p059 Spiral Matrix II.cpp" />
     <ClCompile Include="..\Source\p081 Search in Rotated Sorted Array II.cpp" />

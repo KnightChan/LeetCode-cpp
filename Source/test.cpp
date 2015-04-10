@@ -146,3 +146,40 @@ int main1(void)
 	Outer::Inner::m_In;
 	//objIn.Outer::m_Out;
 }
+
+void ff(char **p)
+{
+	*p += 2;
+}
+
+int main__p()
+{
+	char *a[] = { "123", "abc", "456" }, **p;
+	p = a;
+	ff(p);
+	cout << **p << endl;
+	printf("%c\r\n", **p);
+	return 0;
+}
+
+char* getMem(void)
+{
+	char *p = "helloAworld";
+	p[5] = 66;
+	cout << p[5] << endl;
+	return p;
+}
+
+int main_memt()
+{
+	char *s = 0x0;
+	s = getMem();
+	cout << s << endl;
+	printf(s);
+
+	char *p = "helloAworld";
+	p[5] = 66;
+	cout << p[5] << endl;
+	cout << "" << endl;
+	return 0;
+}

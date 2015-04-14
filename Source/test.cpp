@@ -183,3 +183,31 @@ int main_memt()
 	cout << "" << endl;
 	return 0;
 }
+
+class CC
+{
+public:
+	static int sss;
+	int kkk;
+	static void SA()
+	{
+		sss = 0;
+	}
+
+	void BB()
+	{
+		SA();
+	}
+
+	int foo(int x)
+	{
+		return x&-x;
+	}
+};
+
+int main121121121121121(){
+	CC c;
+	int kk = (1 << 31) - 3;
+	cout << kk <<","<< c.foo(kk) << endl;
+	return 0;
+}

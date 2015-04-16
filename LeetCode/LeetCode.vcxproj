@@ -126,6 +126,9 @@
     <ClCompile Include="..\Source\p062 Unique Paths.cpp" />
     <ClCompile Include="..\Source\p063 Unique Paths II.cpp" />
     <ClCompile Include="..\Source\p064 Minimum Path Sum.cpp" />
+    <ClCompile Include="..\Source\p065 Valid Number.cpp" />
+    <ClCompile Include="..\Source\p066 Plus One.cpp" />
+    <ClCompile Include="..\Source\p067 Add Binary.cpp" />
     <ClCompile Include="..\Source\p081 Search in Rotated Sorted Array II.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />

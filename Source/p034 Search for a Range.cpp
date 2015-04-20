@@ -53,3 +53,38 @@ public:
 		return ans;
 	}
 };
+
+class Solution2 {
+public:
+	vector<int> searchRange(int A[], int n, int target) {
+		vector<int> ans(2, -1);
+		vector<int> a(A, A + n);
+		auto iters = equal_range(a.begin(), a.end(), target);
+		if (iters.first == a.end() || target < *iters.first) return ans;
+		ans[0] = iters.first - a.begin();
+		ans[1] = iters.second - a.begin() - 1;
+		return ans;
+	}
+};
+
+class Solution3 {
+public:
+	vector<int> searchRange(int A[], int n, int target) {
+		vector<int> ans(2, -1);
+		auto iters = equal_range(A, A + n, target);
+		if (iters.first == A + n || target < *iters.first) return ans;
+		ans[0] = iters.first - A;
+		ans[1] = iters.second - A - 1;
+		return ans;
+	}
+};
+
+/*
+int main()
+{
+	int a[] = { 2, 2 };
+	Solution2().searchRange(a, 2, 3);
+	Solution3().searchRange(a, 2, 3);
+	return 0;
+}
+//*/

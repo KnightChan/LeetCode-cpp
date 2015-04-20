@@ -31,3 +31,10 @@ public:
 		return low;
 	}
 };
+
+class Solution2 {
+public:
+	int searchInsert(int A[], int n, int target) {
+		return lower_bound(A, A + n, target) - A;
+	}
+};

@@ -1,11 +1,95 @@
-﻿Build started 2015/4/19 星期日 16:17:22 >_<|.
-     1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (ClCompile target(s)).
+﻿Build started 2015/4/21 星期二 0:43:52 >_<|.
+     1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p071 Simplify Path.cpp"
-         p071 Simplify Path.cpp
-     1>..\Source\p071 Simplify Path.cpp(27): warning C4018: '<' : signed/unsigned mismatch
-     1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (ClCompile target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p074 Search a 2D Matrix.cpp"
+         p074 Search a 2D Matrix.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
+         "Release\p001 Two Sum.obj"
+         "Release\p010 Regular Expression Matching.obj"
+         "Release\p011 Container With Most Water.obj"
+         "Release\p012 Integer to Roman.obj"
+         "Release\p013 Roman to Integer.obj"
+         "Release\p015 3Sum.obj"
+         "Release\p016 3Sum Closest.obj"
+         "Release\p017 Letter Combinations of a Phone Number.obj"
+         "Release\p018 4Sum.obj"
+         "Release\p022 Generate Parentheses.obj"
+         "Release\p024 Swap Nodes in Pairs.obj"
+         "Release\p025 Reverse Nodes in k-Group.obj"
+         "Release\p026 Remove Duplicates from Sorted Array.obj"
+         "Release\p027 Remove Element.obj"
+         "Release\p028 Implement strStr().obj"
+         "Release\p029 Divide Two Integers.obj"
+         "Release\p030 Substring with Concatenation of All Words.obj"
+         "Release\p031 Next Permutation.obj"
+         "Release\p032 Longest Valid Parentheses.obj"
+         "Release\p033 Search in Rotated Sorted Array.obj"
+         "Release\p034 Search for a Range.obj"
+         "Release\p035 Search Insert Position.obj"
+         "Release\p036 Valid Sudoku.obj"
+         "Release\p037 Sudoku Solver.obj"
+         "Release\p038 Count and Say.obj"
+         "Release\p039 Combination Sum.obj"
+         "Release\p040 Combination Sum II.obj"
+         "Release\p041 First Missing Positive.obj"
+         "Release\p043 Multiply Strings.obj"
+         "Release\p044 Wildcard Matching.obj"
+         "Release\p045 Jump Game II.obj"
+         "Release\p046 Permutations.obj"
+         "Release\p047 Permutations.obj"
+         "Release\p048 Rotate Image.obj"
+         "Release\p049 Anagrams.obj"
+         "Release\p050 Pow(x, n).obj"
+         "Release\p051 N-Queens.obj"
+         "Release\p052 N-Queens II.obj"
+         "Release\p053 Maximum Subarray.obj"
+         "Release\p054 Spiral Matrix.obj"
+         "Release\p055 Jump Game.obj"
+         "Release\p057 Insert Interval.obj"
+         "Release\p058 Length of Last Word.obj"
+         "Release\p059 Spiral Matrix II.obj"
+         "Release\p060 Permutation Sequence.obj"
+         "Release\p061 Rotate List.obj"
+         "Release\p062 Unique Paths.obj"
+         "Release\p063 Unique Paths II.obj"
+         "Release\p064 Minimum Path Sum.obj"
+         "Release\p065 Valid Number.obj"
+         "Release\p066 Plus One.obj"
+         "Release\p067 Add Binary.obj"
+         "Release\p068 Text Justification.obj"
+         "Release\p069 Sqrt(x).obj"
+         "Release\p070 Climbing Stairs.obj"
+         "Release\p071 Simplify Path.obj"
+         "Release\p072 Edit Distance.obj"
+         "Release\p073 Set Matrix Zeroes.obj"
+         "Release\p074 Search a 2D Matrix.obj"
+         "Release\p075 Sort Colors.obj"
+         "Release\p076 Minimum Window Substring.obj"
+         "Release\p077 Combinations.obj"
+         "Release\p081 Search in Rotated Sorted Array II.obj"
+         "Release\p136 Single Number.obj"
+         "Release\p014 Longest Common Prefix.obj"
+         "Release\p019 Remove Nth Node From End of List.obj"
+         "Release\p002 Add Two Numbers.obj"
+         "Release\p020 Valid Parentheses.obj"
+         "Release\p021 Merge Two Sorted Lists.obj"
+         "Release\p003 Longest Substring Without Repeating Characters.obj"
+         "Release\p004 Median of Two Sorted Arrays.obj"
+         "Release\p005 Longest Palindromic Substring.obj"
+         "Release\p006 ZigZag Conversion.obj"
+         "Release\p007 Reverse Integer.obj"
+         "Release\p008 String to Integer (atoi).obj"
+         "Release\p009 Palindrome Number.obj"
+         "Release\p023 Merge k Sorted Lists.obj"
+         "Release\p042 Trapping Rain Water.obj"
+         "Release\p056 Merge Intervals.obj"
+         Release\test.obj
+         Generating code
+         Finished generating code
+         LeetCode.vcxproj -> I:\GitHub\LeetCode-cpp\Release\LeetCode.exe
+     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:02.87

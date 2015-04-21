@@ -139,7 +139,12 @@
     <ClCompile Include="..\Source\p075 Sort Colors.cpp" />
     <ClCompile Include="..\Source\p076 Minimum Window Substring.cpp" />
     <ClCompile Include="..\Source\p077 Combinations.cpp" />
+    <ClCompile Include="..\Source\p078 Subsets.cpp" />
+    <ClCompile Include="..\Source\p079 Word Search.cpp" />
+    <ClCompile Include="..\Source\p080 Remove Duplicates from Sorted Array II.cpp" />
     <ClCompile Include="..\Source\p081 Search in Rotated Sorted Array II.cpp" />
+    <ClCompile Include="..\Source\p082 Remove Duplicates from Sorted List II.cpp" />
+    <ClCompile Include="..\Source\p083 Remove Duplicates from Sorted List.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
     <ClCompile Include="..\Source\p019 Remove Nth Node From End of List.cpp" />

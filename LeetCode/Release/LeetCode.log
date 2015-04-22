@@ -1,8 +1,11 @@
-﻿Build started 2015/4/21 星期二 0:43:52 >_<|.
+﻿Build started 2015/4/23 星期四 1:26:00 >_<|.
      1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p074 Search a 2D Matrix.cpp"
-         p074 Search a 2D Matrix.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p087 Scramble String.cpp" "..\Source\p089 Gray Code.cpp"
+         p087 Scramble String.cpp
+     1>..\Source\p087 Scramble String.cpp(99): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         p089 Gray Code.cpp
+     1>..\Source\p089 Gray Code.cpp(32): warning C4018: '<' : signed/unsigned mismatch
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
          "Release\p001 Two Sum.obj"
@@ -67,7 +70,18 @@
          "Release\p075 Sort Colors.obj"
          "Release\p076 Minimum Window Substring.obj"
          "Release\p077 Combinations.obj"
+         "Release\p078 Subsets.obj"
+         "Release\p079 Word Search.obj"
+         "Release\p080 Remove Duplicates from Sorted Array II.obj"
          "Release\p081 Search in Rotated Sorted Array II.obj"
+         "Release\p082 Remove Duplicates from Sorted List II.obj"
+         "Release\p083 Remove Duplicates from Sorted List.obj"
+         "Release\p084 Largest Rectangle in Histogram.obj"
+         "Release\p085 Maximal Rectangle.obj"
+         "Release\p086 Partition List.obj"
+         "Release\p087 Scramble String.obj"
+         "Release\p088 Merge Sorted Array.obj"
+         "Release\p089 Gray Code.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
          "Release\p019 Remove Nth Node From End of List.obj"
@@ -85,11 +99,10 @@
          "Release\p042 Trapping Rain Water.obj"
          "Release\p056 Merge Intervals.obj"
          Release\test.obj
-         Generating code
-         Finished generating code
-         LeetCode.vcxproj -> I:\GitHub\LeetCode-cpp\Release\LeetCode.exe
-     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+     1>I:\GitHub\LeetCode-cpp\Release\LeetCode.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.87
+Time Elapsed 00:00:02.94

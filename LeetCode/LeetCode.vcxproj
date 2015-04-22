@@ -145,6 +145,12 @@
     <ClCompile Include="..\Source\p081 Search in Rotated Sorted Array II.cpp" />
     <ClCompile Include="..\Source\p082 Remove Duplicates from Sorted List II.cpp" />
     <ClCompile Include="..\Source\p083 Remove Duplicates from Sorted List.cpp" />
+    <ClCompile Include="..\Source\p084 Largest Rectangle in Histogram.cpp" />
+    <ClCompile Include="..\Source\p085 Maximal Rectangle.cpp" />
+    <ClCompile Include="..\Source\p086 Partition List.cpp" />
+    <ClCompile Include="..\Source\p087 Scramble String.cpp" />
+    <ClCompile Include="..\Source\p088 Merge Sorted Array.cpp" />
+    <ClCompile Include="..\Source\p089 Gray Code.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
     <ClCompile Include="..\Source\p019 Remove Nth Node From End of List.cpp" />

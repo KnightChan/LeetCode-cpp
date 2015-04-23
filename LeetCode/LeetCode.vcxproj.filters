@@ -291,6 +291,12 @@
     <ClCompile Include="..\Source\p089 Gray Code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Source\p093 Restore IP Addresses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ali1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\Source\p090 Subsets II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -298,6 +304,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\p092 Reverse Linked List II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p094 Binary Tree Inorder Traversal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

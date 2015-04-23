@@ -151,6 +151,9 @@
     <ClCompile Include="..\Source\p087 Scramble String.cpp" />
     <ClCompile Include="..\Source\p088 Merge Sorted Array.cpp" />
     <ClCompile Include="..\Source\p089 Gray Code.cpp" />
+    <ClCompile Include="..\Source\p090 Subsets II.cpp" />
+    <ClCompile Include="..\Source\p091 Decode Ways.cpp" />
+    <ClCompile Include="..\Source\p092 Reverse Linked List II.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
     <ClCompile Include="..\Source\p019 Remove Nth Node From End of List.cpp" />

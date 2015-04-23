@@ -211,3 +211,9 @@ int main121121121121121(){
 	cout << kk <<","<< c.foo(kk) << endl;
 	return 0;
 }
+
+int main_555555(){
+	int i = 3;
+	printf("%d, %d", ++i, ++i);
+	return 0;
+}

@@ -1,13 +1,146 @@
-﻿Build started 2015/4/23 星期四 1:26:00 >_<|.
-     1>Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2015/4/23 星期四 14:57:30 >_<|.
+     1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p087 Scramble String.cpp" "..\Source\p089 Gray Code.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Source\leetcode.cpp "..\Source\p022 Generate Parentheses.cpp" "..\Source\p024 Swap Nodes in Pairs.cpp" "..\Source\p025 Reverse Nodes in k-Group.cpp" "..\Source\p026 Remove Duplicates from Sorted Array.cpp" "..\Source\p027 Remove Element.cpp" "..\Source\p028 Implement strStr().cpp" "..\Source\p029 Divide Two Integers.cpp" "..\Source\p030 Substring with Concatenation of All Words.cpp" "..\Source\p031 Next Permutation.cpp" "..\Source\p032 Longest Valid Parentheses.cpp" "..\Source\p033 Search in Rotated Sorted Array.cpp" "..\Source\p034 Search for a Range.cpp" "..\Source\p035 Search Insert Position.cpp" "..\Source\p036 Valid Sudoku.cpp" "..\Source\p037 Sudoku Solver.cpp" "..\Source\p038 Count and Say.cpp" "..\Source\p039 Combination Sum.cpp" "..\Source\p040 Combination Sum II.cpp" "..\Source\p041 First Missing Positive.cpp" "..\Source\p043 Multiply Strings.cpp" "..\Source\p044 Wildcard Matching.cpp" "..\Source\p045 Jump Game II.cpp" "..\Source\p046 Permutations.cpp" "..\Source\p047 Permutations.cpp" "..\Source\p048 Rotate Image.cpp" "..\Source\p049 Anagrams.cpp" "..\Source\p050 Pow(x, n).cpp" "..\Source\p051 N-Queens.cpp" "..\Source\p052 N-Queens II.cpp" "..\Source\p053 Maximum Subarray.cpp" "..\Source\p054 Spiral Matrix.cpp" "..\Source\p055 Jump Game.cpp" "..\Source\p057 Insert Interval.cpp" "..\Source\p058 Length of Last Word.cpp" "..\Source\p059 Spiral Matrix II.cpp" "..\Source\p060 Permutation Sequence.cpp" "..\Source\p061 Rotate List.cpp" "..\Source\p062 Unique Paths.cpp" "..\Source\p063 Unique Paths II.cpp" "..\Source\p064 Minimum Path Sum.cpp" "..\Source\p065 Valid Number.cpp" "..\Source\p066 Plus One.cpp" "..\Source\p067 Add Binary.cpp" "..\Source\p068 Text Justification.cpp" "..\Source\p069 Sqrt(x).cpp" "..\Source\p070 Climbing Stairs.cpp" "..\Source\p071 Simplify Path.cpp" "..\Source\p072 Edit Distance.cpp" "..\Source\p073 Set Matrix Zeroes.cpp" "..\Source\p074 Search a 2D Matrix.cpp" "..\Source\p075 Sort Colors.cpp" "..\Source\p076 Minimum Window Substring.cpp" "..\Source\p077 Combinations.cpp" "..\Source\p078 Subsets.cpp" "..\Source\p079 Word Search.cpp" "..\Source\p080 Remove Duplicates from Sorted Array II.cpp" "..\Source\p081 Search in Rotated Sorted Array II.cpp" "..\Source\p082 Remove Duplicates from Sorted List II.cpp" "..\Source\p083 Remove Duplicates from Sorted List.cpp" "..\Source\p084 Largest Rectangle in Histogram.cpp" "..\Source\p085 Maximal Rectangle.cpp" "..\Source\p086 Partition List.cpp" "..\Source\p087 Scramble String.cpp" "..\Source\p088 Merge Sorted Array.cpp" "..\Source\p089 Gray Code.cpp" "..\Source\p090 Subsets II.cpp" "..\Source\p091 Decode Ways.cpp" "..\Source\p092 Reverse Linked List II.cpp" "..\Source\p019 Remove Nth Node From End of List.cpp" "..\Source\p020 Valid Parentheses.cpp" "..\Source\p021 Merge Two Sorted Lists.cpp" "..\Source\p023 Merge k Sorted Lists.cpp" "..\Source\p042 Trapping Rain Water.cpp" "..\Source\p056 Merge Intervals.cpp" ..\Source\test.cpp
+         leetcode.cpp
+         p022 Generate Parentheses.cpp
+         p024 Swap Nodes in Pairs.cpp
+         p025 Reverse Nodes in k-Group.cpp
+         p026 Remove Duplicates from Sorted Array.cpp
+         p027 Remove Element.cpp
+         p028 Implement strStr().cpp
+     1>..\Source\p028 Implement strStr().cpp(47): warning C4018: '<' : signed/unsigned mismatch
+         p029 Divide Two Integers.cpp
+     1>..\Source\p029 Divide Two Integers.cpp(23): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         p030 Substring with Concatenation of All Words.cpp
+     1>..\Source\p030 Substring with Concatenation of All Words.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+         p031 Next Permutation.cpp
+     1>..\Source\p031 Next Permutation.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         p032 Longest Valid Parentheses.cpp
+     1>..\Source\p032 Longest Valid Parentheses.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p032 Longest Valid Parentheses.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+         p033 Search in Rotated Sorted Array.cpp
+         p034 Search for a Range.cpp
+         p035 Search Insert Position.cpp
+         p036 Valid Sudoku.cpp
+     1>..\Source\p036 Valid Sudoku.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p036 Valid Sudoku.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+         p037 Sudoku Solver.cpp
+     1>..\Source\p037 Sudoku Solver.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p037 Sudoku Solver.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+         p038 Count and Say.cpp
+     1>..\Source\p038 Count and Say.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         p039 Combination Sum.cpp
+     1>..\Source\p039 Combination Sum.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+         p040 Combination Sum II.cpp
+     1>..\Source\p040 Combination Sum II.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+         p041 First Missing Positive.cpp
+         Compiling...
+         p043 Multiply Strings.cpp
+     1>..\Source\p043 Multiply Strings.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p043 Multiply Strings.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p043 Multiply Strings.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+         p044 Wildcard Matching.cpp
+     1>..\Source\p044 Wildcard Matching.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p044 Wildcard Matching.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p044 Wildcard Matching.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p044 Wildcard Matching.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p044 Wildcard Matching.cpp(46): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\Source\p044 Wildcard Matching.cpp(47): warning C4018: '<=' : signed/unsigned mismatch
+     1>..\Source\p044 Wildcard Matching.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+         p045 Jump Game II.cpp
+         p046 Permutations.cpp
+         p047 Permutations.cpp
+         p048 Rotate Image.cpp
+         p049 Anagrams.cpp
+         p050 Pow(x, n).cpp
+         p051 N-Queens.cpp
+     1>..\Source\p051 N-Queens.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p051 N-Queens.cpp(62): warning C4018: '<' : signed/unsigned mismatch
+         p052 N-Queens II.cpp
+         p053 Maximum Subarray.cpp
+         p054 Spiral Matrix.cpp
+         p055 Jump Game.cpp
+         p057 Insert Interval.cpp
+     1>..\Source\p057 Insert Interval.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p057 Insert Interval.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+         p058 Length of Last Word.cpp
+         p059 Spiral Matrix II.cpp
+         p060 Permutation Sequence.cpp
+         p061 Rotate List.cpp
+         p062 Unique Paths.cpp
+         p063 Unique Paths II.cpp
+         Compiling...
+         p064 Minimum Path Sum.cpp
+         p065 Valid Number.cpp
+         p066 Plus One.cpp
+         p067 Add Binary.cpp
+     1>..\Source\p067 Add Binary.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p067 Add Binary.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+         p068 Text Justification.cpp
+     1>..\Source\p068 Text Justification.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p068 Text Justification.cpp(56): warning C4018: '>' : signed/unsigned mismatch
+     1>..\Source\p068 Text Justification.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+         p069 Sqrt(x).cpp
+     1>..\Source\p069 Sqrt(x).cpp(19): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         p070 Climbing Stairs.cpp
+         p071 Simplify Path.cpp
+     1>..\Source\p071 Simplify Path.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+         p072 Edit Distance.cpp
+     1>..\Source\p072 Edit Distance.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p072 Edit Distance.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p072 Edit Distance.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p072 Edit Distance.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p072 Edit Distance.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p072 Edit Distance.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+         p073 Set Matrix Zeroes.cpp
+     1>..\Source\p073 Set Matrix Zeroes.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p073 Set Matrix Zeroes.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+         p074 Search a 2D Matrix.cpp
+         p075 Sort Colors.cpp
+         p076 Minimum Window Substring.cpp
+     1>..\Source\p076 Minimum Window Substring.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p076 Minimum Window Substring.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p076 Minimum Window Substring.cpp(58): warning C4018: '<' : signed/unsigned mismatch
+         p077 Combinations.cpp
+         p078 Subsets.cpp
+     1>..\Source\p078 Subsets.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+         p079 Word Search.cpp
+         p080 Remove Duplicates from Sorted Array II.cpp
+         p081 Search in Rotated Sorted Array II.cpp
+         p082 Remove Duplicates from Sorted List II.cpp
+         p083 Remove Duplicates from Sorted List.cpp
+         Compiling...
+         p084 Largest Rectangle in Histogram.cpp
+     1>..\Source\p084 Largest Rectangle in Histogram.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         p085 Maximal Rectangle.cpp
+     1>..\Source\p085 Maximal Rectangle.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p085 Maximal Rectangle.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p085 Maximal Rectangle.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+         p086 Partition List.cpp
          p087 Scramble String.cpp
      1>..\Source\p087 Scramble String.cpp(99): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         p088 Merge Sorted Array.cpp
          p089 Gray Code.cpp
      1>..\Source\p089 Gray Code.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+         p090 Subsets II.cpp
+     1>..\Source\p090 Subsets II.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+         p091 Decode Ways.cpp
+     1>..\Source\p091 Decode Ways.cpp(26): warning C4018: '<=' : signed/unsigned mismatch
+         p092 Reverse Linked List II.cpp
+         p019 Remove Nth Node From End of List.cpp
+         p020 Valid Parentheses.cpp
+         p021 Merge Two Sorted Lists.cpp
+         p023 Merge k Sorted Lists.cpp
+         p042 Trapping Rain Water.cpp
+         p056 Merge Intervals.cpp
+     1>..\Source\p056 Merge Intervals.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Source\p056 Merge Intervals.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+         test.cpp
+     1>..\Source\test.cpp(141): warning C4101: 'objOut' : unreferenced local variable
+     1>..\Source\test.cpp(210): warning C4307: '-' : integral constant overflow
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\leetcode.obj
          "Release\p001 Two Sum.obj"
          "Release\p010 Regular Expression Matching.obj"
          "Release\p011 Container With Most Water.obj"
@@ -82,6 +215,9 @@
          "Release\p087 Scramble String.obj"
          "Release\p088 Merge Sorted Array.obj"
          "Release\p089 Gray Code.obj"
+         "Release\p090 Subsets II.obj"
+         "Release\p091 Decode Ways.obj"
+         "Release\p092 Reverse Linked List II.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
          "Release\p019 Remove Nth Node From End of List.obj"
@@ -99,10 +235,11 @@
          "Release\p042 Trapping Rain Water.obj"
          "Release\p056 Merge Intervals.obj"
          Release\test.obj
-     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
-     1>I:\GitHub\LeetCode-cpp\Release\LeetCode.exe : fatal error LNK1120: 1 unresolved externals
-     1>Done Building Project "I:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)) -- FAILED.
+         Generating code
+         Finished generating code
+         LeetCode.vcxproj -> D:\GitHub\LeetCode-cpp\Release\LeetCode.exe
+     1>Done Building Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:02.94
+Time Elapsed 00:00:34.72

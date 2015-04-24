@@ -217,3 +217,12 @@ int main_555555(){
 	printf("%d, %d", ++i, ++i);
 	return 0;
 }
+
+int main_swappppppppp()
+{
+	TreeNode *a = new TreeNode(1);
+	TreeNode *b = new TreeNode(2);
+	swap(a->val, b->val);
+	cout << a->val << b->val << endl;
+	return 0;
+}

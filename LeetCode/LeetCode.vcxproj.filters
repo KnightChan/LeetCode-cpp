@@ -372,6 +372,12 @@
     <ClCompile Include="..\Source\p115 Distinct Subsequences.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Source\p116 Populating Next Right Pointers in Each Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\p117 Populating Next Right Pointers in Each Node II.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Source\leetcode.h">

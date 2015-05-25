@@ -1,9 +1,8 @@
-﻿Build started 2015/4/24 星期五 19:27:46 >_<|.
+﻿Build started 2015/5/25 星期一 15:04:11 >_<|.
      1>Project "D:\GitHub\LeetCode-cpp\LeetCode\LeetCode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p099 Recover Binary Search Tree.cpp"
-         p099 Recover Binary Search Tree.cpp
-     1>..\Source\p099 Recover Binary Search Tree.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Source\p117 Populating Next Right Pointers in Each Node II.cpp"
+         p117 Populating Next Right Pointers in Each Node II.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LeetCode-cpp\Release\LeetCode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LeetCode-cpp\Release\LeetCode.lib" /MACHINE:X86 /SAFESEH Release\ali1.obj
          Release\leetcode.obj
@@ -91,6 +90,24 @@
          "Release\p097 Interleaving String.obj"
          "Release\p098 Validate Binary Search Tree.obj"
          "Release\p099 Recover Binary Search Tree.obj"
+         "Release\p100 Same Tree.obj"
+         "Release\p101 Symmetric Tree.obj"
+         "Release\p102 Binary Tree Level Order Traversal.obj"
+         "Release\p103 Binary Tree Zigzag Level Order Traversal.obj"
+         "Release\p104 Maximum Depth of Binary Tree.obj"
+         "Release\p105 Construct Binary Tree from Preorder and Inorder Traversal.obj"
+         "Release\p106 Construct Binary Tree from Inorder and Postorder Traversal.obj"
+         "Release\p107 Binary Tree Level Order Traversal II.obj"
+         "Release\p108 Convert Sorted Array to Binary Search Tree.obj"
+         "Release\p109 Convert Sorted List to Binary Search Tree.obj"
+         "Release\p110 Balanced Binary Tree.obj"
+         "Release\p111 Minimum Depth of Binary Tree.obj"
+         "Release\p112 Path Sum.obj"
+         "Release\p113 Path Sum II.obj"
+         "Release\p114 Flatten Binary Tree to Linked List.obj"
+         "Release\p115 Distinct Subsequences.obj"
+         "Release\p116 Populating Next Right Pointers in Each Node.obj"
+         "Release\p117 Populating Next Right Pointers in Each Node II.obj"
          "Release\p136 Single Number.obj"
          "Release\p014 Longest Common Prefix.obj"
          "Release\p019 Remove Nth Node From End of List.obj"
@@ -115,4 +132,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.30
+Time Elapsed 00:00:03.68

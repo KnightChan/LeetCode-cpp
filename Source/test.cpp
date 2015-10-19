@@ -113,6 +113,7 @@ int main4(void){
 	for (pair<int, int> x : dic)
 		cout << x.first << "," << x.second << "; ";
 	cout << endl;
+	return 0;
 }
 
 int main3(void)
@@ -120,6 +121,7 @@ int main3(void)
 	derived d;
 	d.i = 65;
 	std::cout << d.i;
+	return 0;
 }
 
 int main2(void){
@@ -134,6 +136,7 @@ int main2(void){
 
 	const volatile TestPrint cvt;
 	cvt.Print();
+	return 0;
 }
 
 int main1(void)
@@ -145,6 +148,7 @@ int main1(void)
 	objOut.m_Out;
 	Outer::Inner::m_In;
 	//objIn.Outer::m_Out;
+	return 0;
 }
 
 void ff(char **p)
@@ -159,6 +163,7 @@ int main__p()
 	ff(p);
 	cout << **p << endl;
 	printf("%c\r\n", **p);
+	return 0;
 	return 0;
 }
 

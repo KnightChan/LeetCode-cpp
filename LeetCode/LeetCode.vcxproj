@@ -78,6 +78,10 @@
   <ItemGroup>
     <ClCompile Include="..\Source\ali1.cpp" />
     <ClCompile Include="..\Source\leetcode.cpp" />
+    <ClCompile Include="..\Source\p131 Palindrome Partitioning.cpp" />
+    <ClCompile Include="..\Source\p132 Palindrome Partitioning II.cpp" />
+    <ClCompile Include="..\Source\p179 Largest Number.cpp" />
+    <ClCompile Include="..\Source\p190 Reverse Bits.cpp" />
     <ClCompile Include="..\Source\p118 Pascal%27s Triangle.cpp" />
     <ClCompile Include="..\Source\p119 Pascal%27s Triangle II.cpp" />
     <ClCompile Include="..\Source\p120 Triangle.cpp" />
@@ -191,6 +195,8 @@
     <ClCompile Include="..\Source\p126 Word Ladder II.cpp" />
     <ClCompile Include="..\Source\p127 Word Ladder.cpp" />
     <ClCompile Include="..\Source\p128 Longest Consecutive Sequence.cpp" />
+    <ClCompile Include="..\Source\p129 Sum Root to Leaf Numbers.cpp" />
+    <ClCompile Include="..\Source\p130 Surrounded Regions.cpp" />
     <ClCompile Include="..\Source\p136 Single Number.cpp" />
     <ClCompile Include="..\Source\p014 Longest Common Prefix.cpp" />
     <ClCompile Include="..\Source\p019 Remove Nth Node From End of List.cpp" />
@@ -207,6 +213,23 @@
     <ClCompile Include="..\Source\p023 Merge k Sorted Lists.cpp" />
     <ClCompile Include="..\Source\p042 Trapping Rain Water.cpp" />
     <ClCompile Include="..\Source\p056 Merge Intervals.cpp" />
+    <ClCompile Include="..\Source\p169 Majority Element.cpp" />
+    <ClCompile Include="..\Source\p191 Number of 1 Bits.cpp" />
+    <ClCompile Include="..\Source\p202 Happy Number.cpp" />
+    <ClCompile Include="..\Source\p206 Reverse Linked List.cpp" />
+    <ClCompile Include="..\Source\p223 Rectangle Area.cpp" />
+    <ClCompile Include="..\Source\p231 Power of Two.cpp" />
+    <ClCompile Include="..\Source\p235 Lowest Common Ancestor of a Binary Search Tree.cpp" />
+    <ClCompile Include="..\Source\p236 Lowest Common Ancestor of a Binary Tree.cpp" />
+    <ClCompile Include="..\Source\p238 Product of Array Except Self.cpp" />
+    <ClCompile Include="..\Source\p239 Sliding Window Maximum.cpp" />
+    <ClCompile Include="..\Source\p241 Different Ways to Add Parentheses.cpp" />
+    <ClCompile Include="..\Source\p263 Ugly Number.cpp" />
+    <ClCompile Include="..\Source\p264 Ugly Number II.cpp" />
+    <ClCompile Include="..\Source\p274 H-Index.cpp" />
+    <ClCompile Include="..\Source\p275 H-Index II.cpp" />
+    <ClCompile Include="..\Source\p278 First Bad Version.cpp" />
+    <ClCompile Include="..\Source\p289 Game of Life.cpp" />
     <ClCompile Include="..\Source\test.cpp" />
   </ItemGroup>
   <ItemGroup>

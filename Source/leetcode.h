@@ -12,6 +12,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <string>
+#include <functional>
 using namespace std;
 
 struct Interval {
@@ -87,3 +88,11 @@ void displayArray(T A, int n)
 	}
 	cout << " ]";
 }
+
+
+// Definition for undirected graph.
+struct UndirectedGraphNode {
+    int label;
+    vector<UndirectedGraphNode *> neighbors;
+    UndirectedGraphNode(int x) : label(x) {};
+};

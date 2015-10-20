@@ -80,6 +80,10 @@
     <ClCompile Include="..\Source\leetcode.cpp" />
     <ClCompile Include="..\Source\p131 Palindrome Partitioning.cpp" />
     <ClCompile Include="..\Source\p132 Palindrome Partitioning II.cpp" />
+    <ClCompile Include="..\Source\p133 Clone Graph.cpp" />
+    <ClCompile Include="..\Source\p134 Gas Station.cpp" />
+    <ClCompile Include="..\Source\p135 Candy.cpp" />
+    <ClCompile Include="..\Source\p137 Single Number II.cpp" />
     <ClCompile Include="..\Source\p179 Largest Number.cpp" />
     <ClCompile Include="..\Source\p190 Reverse Bits.cpp" />
     <ClCompile Include="..\Source\p118 Pascal%27s Triangle.cpp" />
@@ -230,6 +234,7 @@
     <ClCompile Include="..\Source\p275 H-Index II.cpp" />
     <ClCompile Include="..\Source\p278 First Bad Version.cpp" />
     <ClCompile Include="..\Source\p289 Game of Life.cpp" />
+    <ClCompile Include="..\Source\p295 Find Median from Data Stream.cpp" />
     <ClCompile Include="..\Source\test.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -13,6 +13,7 @@
 #include <unordered_set>
 #include <string>
 #include <functional>
+#include <list>
 using namespace std;
 
 struct Interval {
@@ -96,3 +97,14 @@ struct UndirectedGraphNode {
     vector<UndirectedGraphNode *> neighbors;
     UndirectedGraphNode(int x) : label(x) {};
 };
+
+
+/**
+* Definition for singly-linked list with a random pointer.
+*/
+struct RandomListNode {
+    int label;
+    RandomListNode *next, *random;
+    RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+};
+
